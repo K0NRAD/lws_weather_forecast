@@ -18,7 +18,7 @@ fun main() = runBlocking {
         return@runBlocking
     }
 
-    val apiKey = "d5c90e8e4f272a8d03a4b76f49d0e10e"
+    val apiKey = "<ENTER YOUR API KEY>"
     val weatherApp = WeatherApp(WeatherClient.weatherService, apiKey)
 
     try {
